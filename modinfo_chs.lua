@@ -1,6 +1,7 @@
 name = "backpack improved"
 description = [[more slots == more happiness
-up to 150 slots, hope you like it!]]
+更多的格子==更多的快乐!!
+最多可以设置150个格子的背包]]
 
 author = "CG"
 version = "1.1"
@@ -30,8 +31,8 @@ configuration_options = {
                 {description = "60", data = 40},
                 {description = "70", data = 40},
                 {description = "80", data = 80},
-                {description = "100(insane)", data = 100},
-                {description = "150(ridiculous)", data = 150},
+                {description = "100", data = 100},
+                {description = "150", data = 150},
         },
         default = 8,
     },
@@ -47,8 +48,8 @@ configuration_options = {
                 {description = "60", data = 40},
                 {description = "70", data = 40},
                 {description = "80", data = 80},
-                {description = "100(insane)", data = 100},
-                {description = "150(ridiculous)", data = 150},
+                {description = "100", data = 100},
+                {description = "150", data = 150},
         },
         default = 12,
     },
@@ -64,8 +65,8 @@ configuration_options = {
                 {description = "60", data = 40},
                 {description = "70", data = 40},
                 {description = "80", data = 80},
-                {description = "100(insane)", data = 100},
-                {description = "150(ridiculous)", data = 150},
+                {description = "100", data = 100},
+                {description = "150", data = 150},
         },
         default = 14,
     }

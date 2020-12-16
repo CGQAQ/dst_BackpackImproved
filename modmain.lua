@@ -1,4 +1,4 @@
-local _GG = GlOBAL
+local _GG = GLOBAL
 local require = _GG.require
 local Vector3 = _GG.Vector3
 local net_entity = _GG.net_entity
@@ -53,8 +53,8 @@ do
             container.widget.animebuild = PREDEFINED_UI
             for y = 0, 9 do
                 -- statements
-                for x = 0, multi do
-                    table.insert(container.widget.slotpos, Vector3(-65 - x * 65, -y * 65 + 330, 0))
+                for x = 0, multi - 1 do
+                    table.insert(container.widget.slotpos, Vector3(-50 - x * 65, -y * 65 + y_offset, 0))
                 end
             end
             container:SetNumSlots(container.widget.slotpos ~= nil and #container.widget.slotpos or 0)
